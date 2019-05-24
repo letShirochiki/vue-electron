@@ -66,7 +66,6 @@ module.exports = {
   
     devServer: {
       
-      
       open: process.platform === "darwin",
   
       disableHostCheck: false,
@@ -82,10 +81,14 @@ module.exports = {
       proxy: null, // string | Object
 
       // before: app => {}
-    }, // 第三方插件配置
-  
+    }, 
+    // 第三方插件配置
     pluginOptions: {
-      // ...
+      electronBuilder: {
+        outputDir: 'electron',
+        disableMainProcessTypescript: false, // Manually disable typescript plugin for main process. Enable if you want to use regular js for the main process (src/background.js by default).
+        mainProcessTypeChecking: false, //
+      }
     }
   };
   

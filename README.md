@@ -1,4 +1,4 @@
-# vue-electron
+# electron
 
 ## Project setup
 ```
