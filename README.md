@@ -36,5 +36,5 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-See [Configuration Reference](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
+See [vue-cli](https://cli.vuejs.org/config/).
+See [vue-cli-plugin-electron-builder](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
