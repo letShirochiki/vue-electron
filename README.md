@@ -1,18 +1,28 @@
-# electron
+# vue3 + typescript + element + sass + electron
 
-## Project setup
+## 安装依赖包
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### web端启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### web端打包
 ```
 npm run build
+```
+
+### 桌面端启动
+```
+npm run electron:serve
+```
+
+### 桌面端打包
+```
+npm run electron:electron
 ```
 
 ### Run your tests
@@ -27,3 +37,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
