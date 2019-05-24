@@ -1,9 +1,0 @@
-directories:
-  output: electron
-  buildResources: build
-  app: electron/bundled
-files:
-  - filter:
-      - '**'
-extends: null
-electronVersion: 5.0.0
